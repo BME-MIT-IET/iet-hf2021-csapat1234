@@ -81,7 +81,7 @@
 							<mainClass>io.github.basilapi.basil.server.Standalone</mainClass>
 						</manifest>
 					</archive>
-					<finalName>basil-server-${project.version}</finalName>
+					<finalName>app</finalName>
                     <appendAssemblyId>false</appendAssemblyId>
 				</configuration>
 				<executions>

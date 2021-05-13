@@ -1,0 +1,41 @@
+version: "3.8"
+services:
+  app:
+    build:
+      context: ../../Desktop/iet-hf2021-csapat1234-main
+      dockerfile: ../../Desktop/iet-hf2021-csapat1234-main/Dockerfile
+      target: prod
+    image: iet-app
+    container_name: iet-app
+    depends_on:
+      - database
+    ports:
+      - 80:8080
+    networks:
+      - iet
+
+  database:
+    image: mysql:8.0
+    restart: unless-stopped
+    container_name: iet-database
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_USER: iet
+      MYSQL_PASSWORD: password
+      MYSQL_DATABASE: iet
+    ports:
+      - 3306:3306
+    networks:
+      - iet
+    volumes:
+      - ./docker/database/init.d:/docker-entrypoint-initdb.d
+      - database-data:/var/lib/mysql
+
+networks:
+  iet:
+    name: iet
+    driver: bridge
+
+volumes:
+  database-data:
+    name: database-data

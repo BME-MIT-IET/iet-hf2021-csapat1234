@@ -1,0 +1,9 @@
+/.git
+/.idea
+/.gitignore
+/basil.ini.default
+/db.sql
+/LICENSE-2.0.txt
+/reactor.iml
+/README.md
+/upgrade-0.4.1-0.5.0.sql

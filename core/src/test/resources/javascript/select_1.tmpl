@@ -1,0 +1,10 @@
+function(){
+	// returns a java.lang.Iterator on Entry
+	var items = this.items;
+	var c=0;
+	while(items.hasNext()) {
+		c++;
+ 		var item = items.next();
+		this.print(Math.round(c)).print(' ').print(item.course).print("\n");
+	}
+};

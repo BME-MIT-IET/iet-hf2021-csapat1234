@@ -21,6 +21,11 @@
 
 	<artifactId>reactor</artifactId>
 	<packaging>pom</packaging>
+	<properties>
+		<sonar.projectKey>BME-MIT-IET_iet-hf2021-csapat1234</sonar.projectKey>
+		<sonar.organization>bme-mit-iet-org</sonar.organization>
+		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
+	</properties>
 	<parent>
 		<groupId>io.github.basilapi</groupId>
 		<artifactId>parent</artifactId>

@@ -2,8 +2,8 @@ version: "3.8"
 services:
   app:
     build:
-      context: ../../Desktop/iet-hf2021-csapat1234-main
-      dockerfile: ../../Desktop/iet-hf2021-csapat1234-main/Dockerfile
+      context: .
+      dockerfile: Dockerfile
       target: prod
     image: iet-app
     container_name: iet-app

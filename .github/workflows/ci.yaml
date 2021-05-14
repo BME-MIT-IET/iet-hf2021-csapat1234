@@ -14,8 +14,6 @@ jobs:
   publish:
     name: Publish to docker registry
     runs-on: ubuntu-latest
-    needs:
-      - build
     steps:
       -
         name: Checkout

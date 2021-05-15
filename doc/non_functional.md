@@ -27,4 +27,4 @@ A projekt az [Apache Shiro](https://shiro.apache.org/) biztonsági keretrendszer
 A projektbe integrálása a hivatalos dokumentáció szerint történt, így vélhetőleg nem tartalmaz az [Apache Shiro](https://shiro.apache.org/) projekttől független sérülékenységi hibákat.
 
 ## Használhatóság
-A projekt a viszonylag kevés dokumentáció miatt eleinte nehezen használható.
+A projekt a viszonylag kevés dokumentáció miatt eleinte nehezen használható. A hibák kijavítása után viszont stabilan használható.

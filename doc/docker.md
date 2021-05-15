@@ -14,4 +14,4 @@ A github gyökérkönyvtárában elhelyeztem a .dockerignore és Dockerfile fáj
 Docker futtatása során megadja, hogy milyen fájlokat hagyjon figyelmen kívül.
 
 ### Dockerfile
-Futtatás során megadja, hogy mit használjon (jelen esetben maven-t), melyik porton fusson a környezet és milyen entrypointokat használjon. Kettő stage-ben oldottam meg. Az első stageban a fordításhoz szükséges függösőgek szerepelnek és ezek segítségével lefordítja a projektet egy .jar fileba. A második stage pedig pusztán futtatáshoz szükséges környezetet biztosítja és ide van átmásolva az első stage-ben lefordított .jar file. A container indításával lefut a .jar file.
+Futtatás során megadja, hogy mit használjon (jelen esetben maven-t), melyik porton fusson a környezet és milyen entrypointot használjon. Kettő stage-ben oldottam meg. Az első stageban a fordításhoz szükséges függöségek szerepelnek, és ezek segítségével lefordítja a projektet egy .jar fileba. A második stage pedig pusztán futtatáshoz szükséges környezetet biztosítja.Az ide átmásolt .jar file a container indításával lefut.

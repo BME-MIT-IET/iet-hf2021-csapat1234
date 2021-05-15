@@ -1,4 +1,4 @@
-# Dokumentáció #
+# Dokumentáció
 
 ## Feladat
 Fejlesztő környezet kiépítése, hogy a fejlesztők számára minnél kevesebb lépésből elérhető legyen a felállított szoftver architektúra.

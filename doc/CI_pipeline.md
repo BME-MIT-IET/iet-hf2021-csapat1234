@@ -11,9 +11,9 @@ A fájl elhelyezése céljából létrehoztam a .github/workflows mappát, amely
 ### build.yml
 Pull-request esetén megpróbálja lefordítani a projektet Java 11-re. Amennyiben a fordítás sikertelen, jelzi a hiba fellépését. 
 
-![](build.png)
+![](./images/build.png)
 
 ### publish.yml
 Ha a master brach.re valaki push-ol (beleértve a pull-request mergelését), az összeállított docket konfiguráció segítségével docker image-et épít, és elhelyezi a container registry-be. 
 
-![](publish.png)
+![](./images/publish.png)

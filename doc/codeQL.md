@@ -10,10 +10,10 @@ A CodeQL analízis futtatásához létrehoztam a codeql-analysis.yml file-t. Ebb
 ## Eredmény
 A CodeQL minden commitnál lefuttatja az analízist, a GitHub actionsnél látszik, hogy sikeresen lefut a biztonsági analízis.
 
-![](cql1.png)
+![](./images/cql1.png)
 
 Az analízis futásának eredménye a GitHub Security fülén található meg. 
 
-![](cql2.png)
+![](./images/cql2.png)
 
 Az analízis elindítását és beüzemelését meglepően egyszerűnek találtam, azt hittem, több probléma lesz vele. Az egyees Security Issue-knál nagyon részeltesen le van írva, hogy mi okozhat biztonsági rést. A CodeQL-t nagyon hasznosnak találom, és a jövőben éles környezetben is szívesen fogom használni.

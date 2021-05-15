@@ -8,9 +8,11 @@ Elvégzett feladatok
 * Futtatható docker image felépítés és publikálás
 * Értesítés, és javítási javaslat a sebezhetőséget okozó függőségekről
 
-## Technológia fókusz
+## Termék/felhaszáló fókusz
 * Manuális tesztek megtervezése, végrehajtása és dokumentálása vagy exploratory testing
+* Nem-funkcionális jellemzők vizsgálata.
 
+## Basil
+A basil projekt célja, hogy megkönnyítse a SPARQL szolgáltatás haszánlatát. Ezt a problémát a SPARQL végpontokhoz való csatlakozás megkönnyítésétével olda meg. A basil lényegében összeköttető middleware-ként helyezkedik el a SPARQL végpontok és a készített alkalmazás között. 
 
-
-A tárhely gyökérkönyvtárában egy IET-HF.md fájlban egy-két bekezdésben foglalja össze a csapat a saját szavaival, hogy mi a projekt célja, és nagyobb projekt esetén válasszon ki a funkcióknak egy részhalmazát, amivel később dolgozni fog majd.
+A basil kezdeményezés egyik fő mozgató rugója a SPARQL végpontokra webes API-k fejlesztésének egyszerűsítése.
